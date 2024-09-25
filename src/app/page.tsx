@@ -8,6 +8,7 @@ import Image from "next/image";
 import AdvertisingSlide from "@/components/Slides/Slide/AdvertisingSlide";
 import Footer from "@/components/Footer";
 import ReviewSlide from "@/components/Slides/Slide/ReviewSlide";
+import Link from "next/link";
 
 export default function Home() {
 
@@ -19,10 +20,12 @@ export default function Home() {
         <h1 className="py-[17px] font-medium text-3xl text-[#083B47]">NOSSOS IMOVEIS</h1>
         <CarrouselSwiper />
         <div className="w-full flex justify-center py-[44px]">
-          <Button
-            text={"VER MAIS"}
-            className="bg-white text-black text-3xl font-medium w-[250px] h-[50px] drop-shadow-[0px_4px_10px_rgba(0,0,0,0.25)]"
-          />
+          <Link href={"/Empreendimentos"}>
+            <Button
+              text={"VER MAIS"}
+              className="bg-white text-black text-3xl font-medium w-[250px] h-[50px] drop-shadow-[0px_4px_10px_rgba(0,0,0,0.25)]"
+            />
+          </Link>
         </div>
       </section>
       <section className="h-52 flex items-center">

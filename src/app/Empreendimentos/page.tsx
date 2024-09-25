@@ -105,27 +105,27 @@ export default function Empreendimentos() {
               <Filter.Container title="Tipo de Imóvel">
                 <ul className="text-[10px] text-white space-y-[6px] my-2">
                   <li className="flex space-x-1">
-                    <input type="checkbox" value="casa" {...register("type_property")} />
+                    <input type="checkbox" value="Casa" {...register("type_property")} />
                     <p>Casa</p>
                   </li>
                   <li className="flex space-x-1">
-                    <input type="checkbox" value="apartamento" {...register("type_property")} />
+                    <input type="checkbox" value="Apartamento" {...register("type_property")} />
                     <p>Apartamento</p>
                   </li>
                   <li className="flex space-x-1">
-                    <input type="checkbox" value="terreno" {...register("type_property")} />
+                    <input type="checkbox" value="Terreno" {...register("type_property")} />
                     <p>Terreno</p>
                   </li>
                   <li className="flex space-x-1">
-                    <input type="checkbox" value="condominium" {...register("type_property")} />
+                    <input type="checkbox" value="Condominium" {...register("type_property")} />
                     <p>Condominium</p>
                   </li>
                   <li className="flex space-x-1">
-                    <input type="checkbox" value="rural" {...register("type_property")} />
+                    <input type="checkbox" value="Rural" {...register("type_property")} />
                     <p>Área Rural</p>
                   </li>
                   <li className="flex space-x-1">
-                    <input type="checkbox" value="comercial" {...register("type_property")} />
+                    <input type="checkbox" value="Comercial" {...register("type_property")} />
                     <p>Comercial</p>
                   </li>
                 </ul>
