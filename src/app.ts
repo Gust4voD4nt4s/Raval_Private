@@ -19,7 +19,7 @@ postgresDataSource.initialize()
         app.use(express.static(resolve(__dirname, 'uploads')))
 
         app.use(cors({
-            origin: 'https://ravalimobiliaria.netlify.app',
+            origin: ['https://ravalimobiliaria.netlify.app', 'http://localhost:3000'],
             credentials: true
         }))
 
