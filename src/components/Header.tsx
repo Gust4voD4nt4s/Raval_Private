@@ -1,16 +1,16 @@
 'use client'
 import Image from "next/image"
-import HambugerButton from "@/Images/HamburgerButton.png"
-import LogoRaval from "@/Images/LogoRaval.png";
-import IconeRaval from "@/Images/IconeRaval.png"
-import Arrow from "@/Images/Arrow.png"
-import ArrowSelect from "@/Images/ArrowSelect.png"
+import HambugerButton from "../images/HamburgerButton.png"
+import LogoRaval from "../images/LogoRaval.png";
+import IconeRaval from "../images/IconeRaval.png"
+import Arrow from "../images/Arrow.png"
+import ArrowSelect from "../images/ArrowSelect.png"
 import Link from "next/link"
 import { useState, useEffect } from "react";
 import { Select } from "./Select";
 import { NavBar } from "./Navbar";
 import NavBarContainer from "./Navbar/NavBarContainer";
-import iconePerfil from '@/Images/icone_perfil.png'
+import iconePerfil from '../images/icone_perfil.png'
 import Logo from "./Logo";
 import Button from "./Button";
 import { useForm } from "react-hook-form";
