@@ -1,4 +1,4 @@
 export default {
     origin: 'https://ravalimobiliaria.netlify.app/',
-    baseUrl: 'https://raval-imobialiria.onrender.com'
+    baseUrl: 'https://ravalprivate-production.up.railway.app'
 };  
