@@ -1,7 +1,7 @@
 import Button from "@/components/Button";
 import Header from "@/components/Header";
 import Hero from '@/components/Hero'
-import icon from '../images/ArrowSelect.png'
+import icon from '@/images/ArrowSelect.png'
 
 import CarrouselSwiper from "@/components/Slides/Carrousel/CarrouselSwiper";
 import Image from "next/image";

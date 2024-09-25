@@ -5,10 +5,10 @@ import { useFetch } from "@/hooks/useRequest";
 import Image from "next/image";
 import { RepositoryProperty } from "@/components/Slides/Carrousel/CarrouselSwiper";
 import MediumCardContainer from "@/components/Cards/Medium Cards/MediumCardContainer";
-import M2 from '@/Images/m2.png'
-import Cama from '@/Images/cama.png'
-import Banheira from '@/Images/banheira.png'
-import LogoMCMV from '@/Images/logo-mcmv-2023.png'
+import M2 from '@/images/m2.png'
+import Cama from '@/images/cama.png'
+import Banheira from '@/images/banheira.png'
+import LogoMCMV from '@/images/logo-mcmv-2023.png'
 import Garagem from '@/images/garagem.png'
 import Piscina from '@/images/piscina.png'
 import Area_Gourmet from '@/images/churrasqueira.png'

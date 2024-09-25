@@ -1,6 +1,6 @@
 import Logo from "./Logo"
-import LogoRaval from "@/Images/LogoRaval.png";
-import IconeRaval from "@/Images/IconeRaval.png"
+import LogoRaval from "@/images/LogoRaval.png";
+import IconeRaval from "@/images/IconeRaval.png"
 import { NavBar } from "./Navbar";
 
 const Footer = () => {

@@ -1,8 +1,8 @@
 
 import Image from "next/image"
 import { Select } from "./Select"
-import ArrowSelectWhite from "@/Images/arrow_select_white.png"
-import HeroImage from '@/Images/hero_image.png'
+import ArrowSelectWhite from "@/images/arrow_select_white.png"
+import HeroImage from '@/images/hero_image.png'
 
 const Hero = () => {
     return (

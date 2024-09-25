@@ -1,12 +1,12 @@
 import { StaticImageData } from "next/image";
 import Image from 'next/image';
 
-import ImageImovel from '@/Images/imovel.png'
-import Star from '@/Images/estrela_favorito.png'
-import M2 from '@/Images/m2.png'
-import Cama from '@/Images/cama.png'
-import Banheira from '@/Images/banheira.png'
-import LogoMCMV from '@/Images/logo-mcmv-2023.png'
+import ImageImovel from '@/images/imovel.png'
+import Star from '@/images/estrela_favorito.png'
+import M2 from '@/images/m2.png'
+import Cama from '@/images/cama.png'
+import Banheira from '@/images/banheira.png'
+import LogoMCMV from '@/images/logo-mcmv-2023.png'
 
 interface SmallCardDescriptionProps {
     type_property: string,

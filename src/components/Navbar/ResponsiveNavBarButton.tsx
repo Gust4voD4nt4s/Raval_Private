@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from 'next/image'
-import HambugerButton from '@/Images/HamburgerButton.png'
+import HambugerButton from '@/images/HamburgerButton.png'
 
 interface ButtonResponsiveNavbarProps {
     icon: StaticImageData
