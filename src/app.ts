@@ -19,7 +19,8 @@ postgresDataSource.initialize()
         app.use(express.static(resolve(__dirname, 'uploads')))
 
         app.use(cors({
-            origin: config.get<string>('origin')
+            origin: config.get<string>('origin'),
+            credentials: true
         }))
 
         app.use('/api/v1/property', propertyRouter)
