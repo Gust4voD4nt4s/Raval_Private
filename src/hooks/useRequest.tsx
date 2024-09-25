@@ -7,6 +7,7 @@ export const useFetch = <T = unknown>(url: string, param?: object): T | null => 
     const [data, setData] = useState<T | null>(null)
 
     useEffect(() => {
+        console.log(param)
         axios.get(url, {
             params: {
                 ...param
