@@ -46,7 +46,7 @@ export interface RepositoryProperty {
 const CarrouselSwiper = () => {
 
 
-    const data = useFetch<RepositoryProperty[]>('http://localhost:3001/api/v1/property/')
+    const data = useFetch<RepositoryProperty[]>('https://raval-imobialiria.onrender.com/api/v1/property/')
 
 
     return (

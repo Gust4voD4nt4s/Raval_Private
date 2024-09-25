@@ -53,7 +53,7 @@ export default function Empreendimentos() {
       max_value: ''
     }
   })
-  const data = useFetch<RepositoryProperty[]>('http://localhost:3001/api/v1/property/', param)
+  const data = useFetch<RepositoryProperty[]>('https://raval-imobialiria.onrender.com/api/v1/property/', param)
 
   useEffect(() => {
     
