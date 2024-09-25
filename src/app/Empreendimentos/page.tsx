@@ -152,8 +152,8 @@ export default function Empreendimentos() {
                 <Image priority width={300} height={0} className="col-start-2 w-[135px] h-[105px]" src={imovel.images?.[2]?.url || Casa} alt="" />
               </div>
 
-              <div className="flex justify-between">
-                <div>
+              <div className="flex justify-between text-black">
+                <div className="text-black">
                   <div className="flex mt-1">
                     <h1 className="text-[#088403] text-xl mr-2 ">{`${imovel.type_purchase != 'aluguel' ? `R$ ${imovel.value}` : `R$ ${imovel.value} p/mês`}`}</h1>
                     <h1 className="text-[#04403A] text-xl capitalize">{imovel.type_purchase}</h1>
@@ -196,7 +196,6 @@ export default function Empreendimentos() {
                   </ul>
                 </div>
 
-
                 <div className="w-[133px] flex flex-col justify-between">
                   <div className="flex justify-end m-2">
                     <Image className=" w-[30px] h-[30px]" src={LogoMCMV} alt="" />
@@ -212,7 +211,6 @@ export default function Empreendimentos() {
                 </div>
               </div>
             </MediumCardContainer>
-
           ))}
         </div>
       </section>
