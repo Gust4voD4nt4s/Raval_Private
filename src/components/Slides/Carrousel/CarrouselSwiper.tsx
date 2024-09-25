@@ -46,8 +46,9 @@ export interface RepositoryProperty {
 const CarrouselSwiper = () => {
 
 
-    const data = useFetch<RepositoryProperty[]>('https://raval-imobialiria.onrender.com/api/v1/property/')
+    const data = useFetch<RepositoryProperty[]>('https://ravalprivate-production.up.railway.app/api/v1/property')
 
+    
 
     return (
         <Swiper
