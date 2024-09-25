@@ -50,7 +50,8 @@ export default function Empreendimentos() {
       type_property: [],
       value: null,
       min_value: '',
-      max_value: ''
+      max_value: '',
+      square_meters: null
     }
   })
   const data = useFetch<RepositoryProperty[]>('https://ravalprivate-production.up.railway.app/api/v1/property', param)
@@ -134,7 +135,7 @@ export default function Empreendimentos() {
 
             <Filter.Root>
               <Filter.Container title="Área Min. em M²">
-                <input type="number" placeholder="00000 M²" className="w-20 h-5 bg-transparent border-2 border-gray-500 rounded text-[10px] pl-[2px] outline-none text-white"></input>
+                <input type="number" placeholder="00000 M²" {...register("square_meters")} className="w-20 h-5 bg-transparent border-2 border-gray-500 rounded text-[10px] pl-[2px] outline-none text-white"></input>
               </Filter.Container>
             </Filter.Root>
 
