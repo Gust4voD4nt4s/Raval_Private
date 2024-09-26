@@ -54,7 +54,7 @@ export default function Empreendimentos() {
       square_meters: null
     }
   })
-  const data = useFetch<RepositoryProperty[]>('https://ravalprivate-production.up.railway.app/api/v1/property', param)
+  const data = useFetch<RepositoryProperty[]>('http://localhost:3001/api/v1/property', param)
 
   useEffect(() => {
     
@@ -147,6 +147,7 @@ export default function Empreendimentos() {
           {data?.map((imovel) => (
             <MediumCardContainer key={imovel.id}>
               <div className="grid grid-col-2 gap-2 items-stretch">
+                <p>{imovel.images?.[0]?.url}</p>
                 <Image priority width={300} height={0} className="col-start-1 row-span-2 w-[300px] h-[215px] rounded-t-xl" src={imovel.images?.[0]?.url || Casa} alt="" />
                 <Image priority width={300} height={0} className="col-start-2 rounded-t-xl w-[135px] h-[105px]" src={imovel.images?.[1]?.url || Casa} alt="" />
                 <Image priority width={300} height={0} className="col-start-2 w-[135px] h-[105px]" src={imovel.images?.[2]?.url || Casa} alt="" />

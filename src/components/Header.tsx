@@ -110,7 +110,7 @@ const Header = () => {
                                                 onClick={() => { setState('Estados'); setVisibilitySelectState(!visibilitySelectState) }}
                                             >
                                                 <input className="absolute w-full h-full appearance-none cursor-pointer" type="radio" value={'Estados'} {...register('state')} />
-                                                <span className='text-[12px]'>Estados</span>
+                                                <span className='text-[12px] text-black'>Estados</span>
                                             </li>
                                             {repoStates?.map((repo) => (
                                                 <li
@@ -118,7 +118,7 @@ const Header = () => {
                                                     className='relative pl-2 pr-8 h-10 flex items-center hover:bg-slate-200 cursor-pointer'
                                                 >
                                                     <input className="absolute w-full h-full appearance-none cursor-pointer" type="radio" onClick={() => { setState(repo.nome); setVisibilitySelectState(!visibilitySelectState) }} value={repo.nome} {...register('state')} />
-                                                    <span className='text-[12px]'>{repo.sigla}</span>
+                                                    <span className='text-[12px] text-black'>{repo.sigla}</span>
                                                 </li>
                                             ))}
 
@@ -149,7 +149,7 @@ const Header = () => {
                                                 onClick={() => {setCity('Cidades'); setVisibilitySelectCity(!visibilitySelectCity)}}
                                             >
                                                 <input className="absolute w-full h-full appearance-none cursor-pointer" type="radio" value={'Cidades'} {...register('city')} />
-                                                <span className='text-[12px]'>Cidades</span>
+                                                <span className='text-[12px] text-black'>Cidades</span>
                                             </li>
                                             {repoStates?.map((repo) => (
                                                 <li
@@ -157,7 +157,7 @@ const Header = () => {
                                                     className='relative pl-2 pr-8 h-10 flex items-center hover:bg-slate-200 cursor-pointer'
                                                 >
                                                     <input className="absolute w-full h-full appearance-none cursor-pointer" type="radio" onClick={() => {setCity(repo.nome); setVisibilitySelectCity(!visibilitySelectCity)}} value={repo.nome} {...register('city')} />
-                                                    <span className='text-[12px]'>{repo.nome}</span>
+                                                    <span className='text-[12px] text-black'>{repo.nome}</span>
                                                 </li>
                                             ))}
 
