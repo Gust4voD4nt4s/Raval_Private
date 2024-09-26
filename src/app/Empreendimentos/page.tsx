@@ -54,7 +54,7 @@ export default function Empreendimentos() {
       square_meters: null
     }
   })
-  const data = useFetch<RepositoryProperty[]>('http://localhost:3001/api/v1/property', param)
+  const data = useFetch<RepositoryProperty[]>('https://ravalprivate-production.up.railway.app/api/v1/property', param)
 
   useEffect(() => {
     
